@@ -12,6 +12,7 @@
 
 /* 프로젝트에서 생성된 UART 핸들 */
 extern UART_HandleTypeDef huart1;
+extern void GW_Catm1_UartRxCpltCallback(UART_HandleTypeDef *huart);
 
 /* main.c에서 생성된 Init 함수 */
 extern void MX_USART1_UART_Init(void);
